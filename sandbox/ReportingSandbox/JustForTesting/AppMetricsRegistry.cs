@@ -87,7 +87,7 @@ namespace ReportingSandbox.JustForTesting
             public static GaugeOptions ProcessPeekVirtualMemorySizeGauge = new GaugeOptions
                                                                            {
                                                                                Context = Context,
-                                                                               Name = "Process Peek Paged Memory Size",
+                                                                               Name = "Process Virtual Paged Memory Size",
                                                                                MeasurementUnit = Unit.Bytes,
                                                                                Tags = new MetricTags("reporter", "influxdb")
                                                                            };
